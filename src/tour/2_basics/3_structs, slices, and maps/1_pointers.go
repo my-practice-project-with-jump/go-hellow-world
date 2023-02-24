@@ -15,4 +15,6 @@ func main() {
 	*p = *p / 37 // 通過指針對j進行除法運算
 	fmt.Println(j, p, *p)
 
+	fmt.Printf("i is %T, j is %T, p is %T", i, j, p)
+
 }
